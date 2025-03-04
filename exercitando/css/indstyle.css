@@ -1,0 +1,113 @@
+/*BODY*/
+body{
+background-color: beige;
+}
+
+a {
+    text-decoration: none;
+}
+/*HEADER*/
+h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: center;
+
+}
+
+/*Divider*/
+.divider {
+  display: flex;
+  
+  &:before,
+  &:after {
+    content: "";
+    flex: 1;
+  }
+}
+
+/*Line*/
+.line {
+  align-items: center;
+  margin: 1em -1em;
+  
+  &:before,
+  &:after {
+    height: 1px;
+    margin: 0 1em;
+  }
+}
+
+/*Razor*/
+.razor {
+    &:before,
+    &:after {
+      background: black;
+    }
+}
+
+
+#slogan  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+hr {
+border: 1px solid black;
+}
+
+.ano {
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+
+}
+
+.data{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-left: 570px; 
+}
+
+/*COLUNA 1*/
+.col1manch{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: left;
+}
+.col1detal{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: justify;
+}
+.n {
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: justify;
+    display: flex;
+
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    
+}
+
+.coluna {
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    
+}
+
+/*COLUNA 2*/
+/*RODAPÉ*/
